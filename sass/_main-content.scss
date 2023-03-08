@@ -1,0 +1,39 @@
+.main{
+    margin-top: 2rem;
+    &__error{
+        color: red;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    &__form{
+        display: grid;
+        grid-template-columns: 77% auto;
+        gap: 1rem;
+        &__input,
+        &__btn{
+            padding: 1rem;
+            border: 2px solid green;
+            outline: none;
+        }
+    
+        &__btn{
+            background-color: green;
+            color: #fff;
+            cursor: pointer;
+            line-height: 1.5;
+        }
+    }
+    &__numbers{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.1rem;
+        justify-content:space-between;
+        &__number{
+            padding: 1rem 4rem;
+            font-size: 3rem;
+            text-align: center;
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif; }
+
+body {
+  width: 50%;
+  margin: 2rem auto; }
+
+.header {
+  color: #444;
+  text-align: center;
+  padding-inline: 2rem; }
+  .header__heading {
+    color: green;
+    font-size: 3rem; }
+  .header__challenge {
+    font-size: 1.6rem; }
+  .header__author {
+    font-size: 1.4rem; }
+
+.main {
+  margin-top: 2rem; }
+  .main__error {
+    color: red;
+    font-size: 1.2rem;
+    margin-bottom: 1rem; }
+  .main__form {
+    display: grid;
+    grid-template-columns: 77% auto;
+    gap: 1rem; }
+    .main__form__input, .main__form__btn {
+      padding: 1rem;
+      border: 2px solid green;
+      outline: none; }
+    .main__form__btn {
+      background-color: green;
+      color: #fff;
+      cursor: pointer;
+      line-height: 1.5; }
+  .main__numbers {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.1rem;
+    justify-content: space-between; }
+    .main__numbers__number {
+      padding: 1rem 4rem;
+      font-size: 3rem;
+      text-align: center;
+      color: #fff; }
+
+@media screen and (max-width: 1290px) {
+  body {
+    width: 55%; } }
+
+@media screen and (max-width: 1175px) {
+  body {
+    width: 60%; } }
+
+@media screen and (max-width: 1075px) {
+  body {
+    width: 65%; } }
+
+@media screen and (max-width: 992px) {
+  body {
+    width: 70%; } }
+
+@media screen and (max-width: 920px) {
+  body {
+    width: 75%; } }
+
+@media screen and (max-width: 862px) {
+  body {
+    width: 80%; } }
+
+@media screen and (max-width: 805px) {
+  .main__form {
+    display: flex;
+    flex-direction: column; }
+    .main__form__btn {
+      align-self: center; } }
+
+@media screen and (max-width: 720px) {
+  .main__numbers {
+    grid-template-columns: repeat(4, 1fr); } }
+
+@media screen and (max-width: 580px) {
+  body {
+    width: 85%; } }
+
+@media screen and (max-width: 580px) {
+  body {
+    width: 90%; } }
+
+@media screen and (max-width: 520px) {
+  .main__numbers {
+    grid-template-columns: repeat(3, 1fr); } }
+
+@media screen and (max-width: 390px) {
+  body {
+    width: 95%; } }
+
+@media screen and (max-width: 367px) {
+  .main__numbers {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 326px) {
+  .header__heading {
+    font-size: 2.5rem; } }

@@ -1,0 +1,17 @@
+.header{
+    color: #444;
+    text-align: center;
+    padding-inline: 2rem;
+    &__heading{
+        color: green;
+        font-size: 3rem;
+    }
+
+    &__challenge{
+        font-size: 1.6rem;
+    }
+
+    &__author{
+        font-size: 1.4rem;
+    }
+}

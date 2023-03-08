@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dynamic Number Generator</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header id="header" class="header">
+            <h1 id="heading" class="header__heading">
+                Number Generator
+            </h1>
+            <p id="p1" class="header__challenge">30DaysOfJavaScript</p>
+            <p id="p1" class="header__author">Author: Asabeneh Yetayeh</p>
+        </header>
+        <main id="main" class="main">
+            <p id="error" class="main__error">
+            </p>
+            <form id="form" class="main__form">
+                <input 
+                    type="text" 
+                    id="input" 
+                    class="main__form__input"
+                    placeholder="Enter an integer number"
+                    name="input-field"
+                    area-label="input-field"
+                >
+                <button type="button" id="btn" class="main__form__btn">
+                    Generate Numbers
+                </button>
+            </form>
+            <section id="numbers" class="main__numbers">
+
+            </section>
+        </main>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
